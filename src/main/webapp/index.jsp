@@ -35,6 +35,7 @@
             </p>
             <button type="submit">Login</button>
         </form>
+        <p>Non hai un account? <a href="registrazione.jsp">Registrati</a></p>
     <% } %>
 </body>
 </html>
