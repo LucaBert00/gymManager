@@ -44,6 +44,7 @@
         <h2>Area amministratore</h2>
         <p><a href="corsiCliente.jsp">Visualizza i corsi di un cliente</a></p>
         <p><a href="incassoTotale.jsp">Visualizza l'incasso totale</a></p>
+        <p><a href="nuovoCorso.jsp">Inserisci un nuovo corso</a></p>
     <% } %>
 </body>
 </html>
