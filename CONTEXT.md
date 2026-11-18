@@ -20,9 +20,11 @@ Ti dico inoltre che abbiamo nella cartella scuola Quinta I informatica docs sei 
 ci ha fornito il prof per le pratiche da utilizzare usando JSP. Inoltre nel progetto troviamo
 due file che devono restare così mutabili per la connessione al database, ovvero Connessione.jsp o anche FunzioniDB.java.
 Questi ultimi li puoi trovare forse un pochino cambiati in Demo.jsp e anche nella versione del prof,
-ma per ora non ci focussiamo su questo. Inoltre viene usata anche il JAR di MySQL per la connessione al database,
-che appunto è d'obbligo. Per il progetto Demo.jsp e Web 5A 26 abbiamo utilizzato il database abbonati,
-mentre per il nuovo progetto Gym Manager utilizzeremo il DB palestra(che ora è nella root del progetto) che dovrà essere importato in
-HeidiSQL e avviato con MySQL. Queste sono le prime accortezze che ti do per appunto cosa stiamo andando a fare.
+ma per ora non ci focussiamo su questo. Il driver di MySQL arriva dalla dipendenza Maven
+com.mysql:mysql-connector-j nel pom.xml. Per il progetto Demo.jsp e Web 5A 26 abbiamo utilizzato il database abbonati,
+mentre per il nuovo progetto Gym Manager utilizziamo il DB palestra, già importato in HeidiSQL e avviato con MySQL di XAMPP
+(il dump palestra.sql non è più nella repo: resta nella cronologia di Git).
+I requisiti funzionali sono in CONSEGNA.md: è la consegna da seguire per cosa implementare.
+Queste sono le prime accortezze che ti do per appunto cosa stiamo andando a fare.
 Successivamente ti dirò anche delle accortezze specifiche, ad esempio per il lavoro con agenti, commit,
 push e il comportamento da utilizzare per GitHub.
