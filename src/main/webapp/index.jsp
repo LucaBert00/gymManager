@@ -39,5 +39,6 @@
     <% } %>
     <h2>Corsi</h2>
     <p><a href="corsi.jsp">Visualizza i corsi disponibili</a></p>
+    <p><a href="classifica.jsp">Visualizza la classifica dei corsi</a></p>
 </body>
 </html>
