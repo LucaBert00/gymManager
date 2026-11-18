@@ -37,5 +37,7 @@
         </form>
         <p>Non hai un account? <a href="registrazione.jsp">Registrati</a></p>
     <% } %>
+    <h2>Corsi</h2>
+    <p><a href="corsi.jsp">Visualizza i corsi disponibili</a></p>
 </body>
 </html>
