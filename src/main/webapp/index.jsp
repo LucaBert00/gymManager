@@ -40,5 +40,9 @@
     <h2>Corsi</h2>
     <p><a href="corsi.jsp">Visualizza i corsi disponibili</a></p>
     <p><a href="classifica.jsp">Visualizza la classifica dei corsi</a></p>
+    <% if (admin) { %>
+        <h2>Area amministratore</h2>
+        <p><a href="corsiCliente.jsp">Visualizza i corsi di un cliente</a></p>
+    <% } %>
 </body>
 </html>
